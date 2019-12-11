@@ -3,187 +3,206 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Krzysztof Madejski
+    tagline: Backend Developer
+    avatar: madejski-3.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
-    gitlab:
+    email: krzysztof@madejscy.pl
+    phone: +48 664 082 823
+    website: https://medium.com/@krzysztofmadejski
+    website_name: Blog
+    linkedin: krzysztof-madejski-aab1b097
+    github: krzysztofmadejski
+    gitlab: gotests
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter:
+    stack-overflow: 803174/kangur
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: Polish
         level: Native
 
-      - idiom: French
-        level: Professional
+      - idiom: English
+        level: Professional, 5 years work experience
 
       - idiom: Spanish
-        level: Professional
+        level: Intermediate
 
-    interests:
-      - item: Climbing
-        link:
-
-      - item: Snowboarding
-        link:
-
-      - item: Cooking
-        link:
+#    interests:
+#      - item: Climbing
+#        link:
+#
+#      - item: Snowboarding
+#        link:
+#
+#      - item: Cooking
+#        link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am an experienced Software Engineer with 14+ years of experience in several programming languages and frameworks.
+
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Computer Science
+      university: Warsaw University of Technology
+      time: 2006 - 2010
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        Bachelor's thesis: Design and implementation of finite state machine interpreter for nxtOSEK real-time operating system.
+        Testing on LEGO Mindstorms NXT.
+    - degree: College
+      university: XIV LO im. Stanisława Staszica
+      time: 2003 - 2006
+
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Engineer, Golang & React
+      time: 2019 - Present
+      company: IQVIA, Warsaw & remote
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        Developing an internal web tool at IQVIA dedicated to orchestrate processing of various dependent data pipelines.
+
+        Stack: Golang, React, Typescript, Postgres
+
+    - role: Software Engineer, Project Lead
+      time: 2014 - 2019
+      company: ePanstwo Foundation, Warsaw & remote
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        Worked on following projects:
+
+        1. https://dane.gov.pl/ - Led the product development and coded the backend of Polish national open data portal
+           for Ministry of Digital Affairs.
+
+           Stack: Python, CKAN, Celery, Postgres.
+        2. https://moonsheep.org/ - Led the team, designed architecture and coded the backend of project Moonsheep –
+           an opensource framework to support crowdsourcing of handwritten documents into structured data.
+
+           Stack: Python, Django, Postgres.
+        3. I was developing a website archival tool similar to web.archive.org.
+
+           Stack: PHP, ElasticSearch, MariaDB
+
+    - role: Software Engineer, Java & Ruby on Rails
+      time: 2011 - 2013
+      company: In4mates, Warsaw
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        Worked on following projects:
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        1. Coding standalone enterprise architecture management tool for Polish bank. Stack: Java.
+        2. Coding backend of credit-ranking website for a Polish startup. Stack: Ruby on Rails.
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    - role: Python Developer
+      time: 2011
+      company: Stowarzyszenie Nowe Horezonty, Warsaw
+      details: |
+        Needs assessment, planning, development and deployment of the a management tool allowing Polish non-profit
+        to manage a country-wide film education program logistics: booking school screenings, delivering film copies, reporting.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        Stack: Python, Django, Postgres
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+    - role: Business Analyst
+      time: 2010 - 2011
+      company: CERN, Geneva
+      details: |
+        Creating monitoring and reporting services based on OLAP MSSQL Analytic i Reporting Services. Developing C# web widgets.
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+    - role: Java Developer
+      time: 2006 - 2007
+      company: QBS, Warsaw
+      details: |
+        Developing portfolio of business applications such as CRM or Logistics. Stack: Java.
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Technical Proficiency
 
     toolset:
       - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Ruby & Rails
+        level: 70%
 
-      - name: Sketch & Photoshop
+      - name: Golang
         level: 60%
+
+      - name: Java
+        level: 50%
+
+      - name: PHP
+        level: 30%
+
+      - name: Javascript, jQuery Typescript, React
+        level: 20%
+
+      - name: Docker, Travis, Gitlab
+        level: 70%
+
+      - name: Postgres, MySQL, etc.
+        level: 90%
+
+      - name: Elasticsearch
+        level: 50%
+
+nontechnical:
+    title: Skills
+
+    toolset:
+      - name: Communication
+        level: 95%
+      - name: Project management
+        level: 95%
+
+projects:
+    title: Projects
+    intro: >
+      A few projects with published source code that I led:
+
+    assignments:
+      - title: Handlertest
+        link: https://gitlab.com/gotests/handlertest
+        tagline: golang library making http handler tests verbose.
+          Quite simple, but illustrates well good documentation, testing, CI/CD and code coverage principles.
+
+      - title: Moonsheep
+        link: https://moonsheep.org
+        tagline: "An opensource framework to support crowdsourcing of handwritten documents into structured data.
+          I’m a leader of this project playing several roles: fundraising, coordinating team’s work,
+          designing software architecture and finally coding backend."
+
+      - title: Dane.gov.pl
+        link: https://dane.gov.pl/
+        tagline: Led the product development and coded the backend of Polish national open data portal
+          for Ministry of Digital Affairs.
+
+
+#publications:
+#    title: Publications
+#    intro: |
+#      You can list your publications in this section. Lorem ipsum dolor sit
+#      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#      bibendum fringilla a eu lectus.
+#    papers:
+#      - title: The Art of Computer Programming
+#        link: "#"
+#        authors: Donald E. Knuth
+#        conference: Addison-Wesley, 1968
+#
+#      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#        link: "#"
+#        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#
+#      - title: A syntax directed compiler for Algol 60
+#        link: "#"
+#        authors: Edgar T. Irons
+#        conference: "Comm. ACM 4 (1961), 51–55"
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    and <a href="https://github.com/sharu725/online-cv" target="_blank" rel="nofollow">Sharu725</a>

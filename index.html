@@ -11,8 +11,10 @@ layout: default
 
 {% include experiences.html %}
 
-{% include projects.html %}
+{% include skills.html skills=site.data.data.skills %}
+
+{% include skills.html skills=site.data.data.nontechnical %}
 
 {% include publications.html %}
 
-{% include skills.html %}
+{% include projects.html %}
