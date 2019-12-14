@@ -152,14 +152,14 @@ skills:
 nontechnical:
     title: Skills
 
-    toolset:
-      - name: Communication
-        level: 95%
-      - name: Project management
-        level: 95%
+    skills:
+      - Good interpersonal skills
+      - Team worker
+      - Fast learner
+      - Project management experience
 
 projects:
-    title: Projects
+    title: Open source
     intro: >
       A few projects with published source code that I led:
 

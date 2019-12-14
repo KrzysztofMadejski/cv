@@ -7,6 +7,33 @@
        font-size: 12pt;
     }
 
+    a[href].printnolink:after {
+        content: "";
+    }
+
+    .sidebar-wrapper {
+        border-left: solid black 1pt;
+        margin-left: 15px;
+
+        .container-block {
+            padding: 20px;
+        }
+    }
+
+    .experiences-section {
+        .job-title {
+            font-size: large;
+        }
+    }
+
+    .section .item {
+        page-break-inside: avoid;
+    }
+
+    .projects-section {
+        display: none;
+    }
+
     img.avatar {
         filter: grayscale(1);
         -webkit-filter: greyscale(1);

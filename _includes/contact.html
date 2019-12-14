@@ -3,31 +3,31 @@
 
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
-      <a href="mailto:{{ sidebar.email }}">{{ sidebar.email }}</a>
+      <a href="mailto:{{ sidebar.email }}" class="printnolink">{{ sidebar.email }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.phone %}
     <li class="phone"><i class="fas fa-phone"></i>
-      <a href="tel:{{ sidebar.phone }}">{{ sidebar.phone }}</a>
+      <a href="tel:{{ sidebar.phone }}"  class="printnolink">{{ sidebar.phone }}</a>
     </li>
     {% endif %}
 
     {% if sidebar.linkedin %}
     <li class="linkedin"><i class="fab fa-linkedin"></i>
-      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">{{ sidebar.linkedin }}</a>
+      <a href="https://linkedin.com/in/{{ sidebar.linkedin }}" target="_blank">LinkedIn</a>
     </li>
     {% endif %}
 
     {% if sidebar.github %}
     <li class="github"><i class="fab fa-github"></i>
-      <a href="http://github.com/{{ sidebar.github }}" target="_blank">{{ sidebar.github }}</a>
+      <a href="http://github.com/{{ sidebar.github }}" target="_blank">Github</a>
     </li>
     {% endif %}
 
     {% if sidebar.gitlab %}
     <li class="gitlab"><i class="fab fa-gitlab"></i>
-      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">{{ sidebar.gitlab }}</a>
+      <a href="http://gitlab.com/{{ sidebar.gitlab }}" target="_blank">Gitlab</a>
     </li>
     {% endif %}
 
@@ -45,7 +45,7 @@
 
     {% if sidebar.stack-overflow %}
     <li class="stack-overflow"><i class="fab fa-stack-overflow"></i>
-      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">{{ sidebar.stack-overflow }}</a>
+      <a href="https://stackoverflow.com/users/{{ sidebar.stack-overflow }}" target="_blank">StackOverflow</a>
     </li>
     {% endif %}
 
