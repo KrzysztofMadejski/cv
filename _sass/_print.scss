@@ -11,18 +11,16 @@
         content: "";
     }
 
-    .sidebar-wrapper {
-        border-left: solid black 1pt;
-        margin-left: 15px;
-
-        .container-block {
-            padding: 20px;
-        }
-    }
-
-    .experiences-section {
+    .main-wrapper .experiences-section {
         .job-title {
             font-size: large;
+        }
+
+        .item .time {
+//            float: right;
+
+            color: black !important;
+            -webkit-print-color-adjust: exact;
         }
     }
 
@@ -38,16 +36,20 @@
         filter: grayscale(1);
         -webkit-filter: greyscale(1);
     }
-   .main-wrapper .time {
-       float: right;
-        color: black !important;
-        -webkit-print-color-adjust: exact;
-   }
+
+    .main-wrapper .section {
+        margin-bottom: 40px;
+    }
+
     .sidebar-wrapper {
         position: static;
         float: right;
         width: 40%;
         -webkit-print-color-adjust: exact;
+
+        border-left: solid black 1pt;
+        margin-left: 15px;
+        height: 29.5cm;
     }
 
     .remove-container.container-block {
@@ -63,4 +65,18 @@
        -webkit-print-color-adjust: exact;
     }
 
+    .skillset .level-title {
+        display: inline-block;
+        float: left;
+        width: 30%;
+        margin-bottom: 0;
+    }
+
+    .skillset .level-bar {
+        display: inline-block;
+        width: 70%;
+        float: left;
+        position: relative;
+        top: 1px;
+    }
 }

@@ -110,7 +110,9 @@ experiences:
       time: 2010 - 2011
       company: CERN, Geneva
       details: |
-        Creating monitoring and reporting services based on OLAP MSSQL Analytic i Reporting Services. Developing C# web widgets.
+        Creating big data analysis of web traffic, and software distribution and desktop computers issues.
+
+        Stack: OLAP MSSQL Analytic & Reporting Services, C# web widgets
 
     - role: Java Developer
       time: 2006 - 2007
@@ -137,7 +139,7 @@ skills:
       - name: PHP
         level: 30%
 
-      - name: Javascript, jQuery Typescript, React
+      - name: Javascript, Typescript, React
         level: 20%
 
       - name: Docker, Travis, Gitlab
