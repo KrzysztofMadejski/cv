@@ -100,9 +100,9 @@ experiences:
            an opensource framework to support crowdsourcing of handwritten documents into structured data.
 
            Stack: Python, Django, Postgres.
-        3. I was developing a website archival tool similar to web.archive.org.
+        3. I was developing a website archival tool similar to web.archive.org and developed several web scrapers.
 
-           Stack: PHP, ElasticSearch, MariaDB
+           Stack: PHP, ElasticSearch, MariaDB, Python(scrapy)
 
     - role: Software Engineer, Java & Ruby on Rails
       time: 2011 - 2013
